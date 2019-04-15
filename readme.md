@@ -11,4 +11,14 @@ week, or any some predefined schedule.
 I realize there are applications out there that do this, but I wanted to try to build something because
 I think this will be cheaper, and I want to try something utilizing the Twilio and Google Sheets API's.
 
+https://www.twilio.com/blog/2017/12/send-bulk-sms-twilio-node-js.html 
+
 # Quick Start
+- git clone https://github.com/jonathanwoahn/ward-messenger.git
+- npm i
+- edit the 'configuration.ts' file to have your relevant information. Further instructions are in that file.
+-- *** Note: I store all my keys in a local .env file for security purposes. You can write them directly
+-- to this file if that's easier for you, but it's less secure
+- I use google spreadsheets as a database for this project. It's quick and easy. There is a template you can follow here
+-- Link to spreadsheet template.
+-- Make sure you don't make modifications ot the spreadsheet structure unless you know what you're doing. The app doesn't do any validation on the spreadsheet format, it just assumes it's correct

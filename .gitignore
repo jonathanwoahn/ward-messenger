@@ -60,11 +60,6 @@ typings/
 
 # dotenv environment variables file
 .env
-<<<<<<< HEAD
-
-# next.js build output
-.next
-=======
 .env.test
 
 # parcel-bundler cache (https://parceljs.org/)
@@ -87,4 +82,7 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
->>>>>>> first commit
+
+####### Other
+token.json
+dist/
